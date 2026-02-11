@@ -1,9 +1,9 @@
 backend:
   name: github
-  repo: YOUR_USERNAME/website-astro-decap
+  repo: mway1/website-astro-decap
   branch: main
   auth_scope: repo
-  client_id: YOUR_CLIENT_ID
+  client_id:
 
 media_folder: "public/uploads"
 public_folder: "/uploads"
