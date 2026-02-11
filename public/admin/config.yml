@@ -3,7 +3,7 @@ backend:
   repo: mway1/website-astro-decap
   branch: main
   auth_scope: repo
-  client_id:
+  client_id: Ov23liForrYx2sYdQRMU
 
 media_folder: "public/uploads"
 public_folder: "/uploads"
