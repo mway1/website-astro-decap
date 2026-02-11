@@ -1,0 +1,22 @@
+backend:
+  name: github
+  repo: YOUR_USERNAME/website-astro-decap
+  branch: main
+  auth_scope: repo
+  client_id: YOUR_CLIENT_ID
+
+media_folder: "public/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "blog"
+    label: "Blog"
+    folder: "src/content/blog"
+    create: true
+    slug: "{{slug}}"
+    format: "frontmatter"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Publish Date", name: "pubDate", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }
