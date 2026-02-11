@@ -7,6 +7,6 @@ export default defineConfig({
       edgeMiddleware: true
   }
   ),
-  site: 'https://mway1.github.io',
+  site: 'https://leafy-selkie-cf7404.netlify.app/',
   base: '/website-astro-decap/',
 });
