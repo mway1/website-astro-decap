@@ -1,5 +1,5 @@
 ---
-const base = import.meta.env.BASE_URL;
+const base = import.meta.env.BASE_URL || "/";
 ---
 
 <!DOCTYPE html>
@@ -13,8 +13,7 @@ const base = import.meta.env.BASE_URL;
 <script>
   window.CMS_MANUAL_INIT = true;
 </script>
-
-<script src="https://unpkg.com/decap-cms-app@^3/dist/decap-cms.js"></script>
+<script src="https://unpkg.com/decap-cms-app@3.11.4/dist/decap-cms.js"></script>
 
 <script>
   CMS.init({
