@@ -3,8 +3,20 @@
 <head>
   <meta charset="utf-8" />
   <title>Admin</title>
-  <script src="https://unpkg.com/decap-cms-app@^3/dist/decap-cms.js"></script>
 </head>
 <body>
+
+<script>
+  window.CMS_MANUAL_INIT = true;
+</script>
+
+<script src="https://unpkg.com/decap-cms-app@^3/dist/decap-cms.js"></script>
+
+<script>
+  CMS.init({
+    config: "/website-astro-decap/admin/config.yml"
+  });
+</script>
+
 </body>
 </html>
