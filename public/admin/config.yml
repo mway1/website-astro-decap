@@ -2,6 +2,7 @@ backend:
   name: github
   repo: mway1/website-astro-decap
   branch: main
+  auth_type: implicit
   auth_scope: repo
   client_id: Ov23liForrYx2sYdQRMU
 
