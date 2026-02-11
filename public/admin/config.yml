@@ -6,7 +6,6 @@ backend:
   auth_scope: repo
   client_id: Ov23liForrYx2sYdQRMU
   base_url: "/website-astro-decap/admin/"
-  squash_merges: true
 
 media_folder: "public/uploads"
 public_folder: "/uploads"
