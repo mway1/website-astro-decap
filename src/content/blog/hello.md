@@ -1,6 +1,7 @@
 ---
-title: "Fisrt post"
-date: 2026-02-11
+title: "Тестовый пост"
+description: "Это тестовый пост для проверки работы блога и CMS"
+pubDate: 2026-02-11
 ---
 
-Hi! This is my first post.
+Привет! Тестирую
