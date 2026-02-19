@@ -19,7 +19,13 @@ if (!post) {
 const { Content } = await post.render();
 ---
 
-<h1>{post.data.title}</h1>
-<p>{post.data.pubDate.toDateString()}</p>
+<article>
+  <h1>{post.data.title}</h1>
+  <p><em>{post.data.pubDate.toDateString()}</em></p>
+  <p>{post.data.description}</p>
+  
+  <Content />
+</article>
 
-<Content />
+<!-- Ссылка обратно на блог -->
+<p><a href="/">← Back to Blog</a></p>
